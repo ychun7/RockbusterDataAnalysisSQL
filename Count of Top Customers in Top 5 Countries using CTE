@@ -1,4 +1,4 @@
-Here is a SQL query with a common table expression to determine the top 5 customers of top 5 countries with highest paying customers.
+SQL query for count of Top customers in Top 5 most profitable countries using Common Table Expression.
 
 WITH top_5_customers (customer_id, customer_first_name, customer_last_name,
 					  city, country, total_amount_paid) AS
